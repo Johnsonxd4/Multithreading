@@ -11,8 +11,8 @@ Trabalhar com Multithreading também tem a vantagem de que pode se utilizar de v
 A classe Thread se encontra no namespace `System.Threading`.
 
 Ela permite que você
-    - Crie threads
-    - Gerencie suas prioridades,
-    - Consulte o seu estado.
+    > Crie threads
+    > Gerencie suas prioridades,
+    > Consulte o seu estado.
 
 Esta classe não é recomendada para que seja usada dentro de suas aplicações, exceto em algumas exceções. Utilizando esta classe, você tem controle sobre todas as opções de configuração.
