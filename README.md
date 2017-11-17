@@ -23,7 +23,7 @@ Esta classe não é recomendada para que seja usada dentro de suas aplicações,
 
 ### `Thread.Join()`
 
-O método `Thread.Join()` é utilizado para que a thread principal aguarde a finalização da thread paralela, para que o código abaixo do método em questão seja executado somente quando a thread paralela seja finalizada.
+O método [`Thread.Join()`](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L16) é utilizado para que a thread principal aguarde a finalização da thread paralela, para que o código abaixo do método em questão seja executado somente quando a thread paralela seja finalizada.
 
 ### `Thread.Sleep(0)`
 
