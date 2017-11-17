@@ -11,7 +11,7 @@ Trabalhar com Multithreading também tem a vantagem de que pode se utilizar de v
 A classe Thread se encontra no namespace `System.Threading`.
 
 Ela permite que você
-> Crie threads.
+> [Crie threads](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L8).
 
 > Gerencie suas prioridades.
 
@@ -23,8 +23,8 @@ Esta classe não é recomendada para que seja usada dentro de suas aplicações,
 
 ### `Thread.Join()`
 
-O método [`Thread.Join()`](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L16) é utilizado para que a thread principal aguarde a finalização da thread paralela, para que o código abaixo do método em questão seja executado somente quando a thread paralela seja finalizada.
+O método [`Thread.Join()`](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L16) é utilizado para que a thread principal aguarde a finalização da thread paralela, para que o [código abaixo](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L18) do método em questão seja executado somente quando a thread paralela seja finalizada.
 
-### `Thread.Sleep(0)`
+### [`Thread.Sleep(0)`](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L24)
 
 Este método sinaliza para o sistema operacional que a thread finalizou seu processamento. O sistema operacional executa outras thread no intervalo de tempo informado no método, em vez de somente esperar o tempo informado.
