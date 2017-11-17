@@ -18,3 +18,5 @@ Ela permite que você
 > Consulte o seu estado.
 
 Esta classe não é recomendada para que seja usada dentro de suas aplicações, exceto em algumas exceções. Utilizando esta classe, você tem controle sobre todas as opções de configuração.
+
+*Synchronization* (sincronização) é o mecanismo que garante que duas threads não execute o mesmo método ou modifiquem a mesma variável/propriedade ao mesmo tempo. Um exemplo de classe que implementa este mecanismo é a `Console`. Se duas threads tentarem invocar, por exemplo, o método `Console.WriteLine("")`, a segunda thread irá aguardar até que a primeira thread termine a utilzação do método.
