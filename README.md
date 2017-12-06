@@ -41,4 +41,4 @@ Quando anotamos um atributo ou  propriedade estática com `ThreadStatic`, este s
 
 Quando trabalhamos com a classe Thread, uma thread é criada, e a thread morre quando finaliza sua execução. Porém a criação destas threads custa algum tempo e recursos.
 A classe `ThreadPool` foi criada para reutilizar estas threads, de uma forma parecida com o pool de conexões de banco de dados. Em vez de deixar simplesmente a thread morrer no fim da sua execução, ela é enviada novamente para o pool para ser reutilizada quando uma nova requisição entrar.
-Utilizando o método `ThreadPool.QueueUserWorkItem`, você adiciona um  trabalho à fila que será executada por uma thread disponivel no pool de threads.
+Utilizando o método [`ThreadPool.QueueUserWorkItem`](https://github.com/Johnsonxd4/Multithreading/blob/8a526e27f2564156e0c8fae6f686c23510f32079/ExemploThreading/Program.cs#L34), você adiciona um  trabalho à fila que será executada por uma thread disponivel no pool de threads.
