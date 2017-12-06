@@ -31,4 +31,4 @@ Este método sinaliza para o sistema operacional que a thread finalizou seu proc
 
 ### Threads parametrizadas
 
-O Construtor da classe `Thread` tem uma sobrecarga que permite criar Threads parametrizadas. Este Construtor aceita como parametro uma instância do delegate `ParameterizedThreadStart`. O parâmetro é passado para a thread quando ela é iniciada pelo método [`Thread.Start(object obj)`]()
+O Construtor da classe `Thread` tem uma sobrecarga que permite criar Threads parametrizadas. Este Construtor aceita como parametro uma instância do delegate [`ParameterizedThreadStart`](https://github.com/Johnsonxd4/Multithreading/blob/4d9d10042420e6abebf43c75c703a733ac78d588/ExemploThreading/Program.cs#L21). O parâmetro é passado para a thread quando ela é iniciada pelo método [`Thread.Start(object obj)`](https://github.com/Johnsonxd4/Multithreading/blob/4d9d10042420e6abebf43c75c703a733ac78d588/ExemploThreading/Program.cs#L22). 
