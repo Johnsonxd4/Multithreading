@@ -16,6 +16,14 @@ namespace ExemploThreading {
             thread.Join();
 
             Console.WriteLine("Esta linha será executada somente quando a thread paralela terminar seu processo");
+
+            ThreadParametrizada obj = new ThreadParametrizada();
+            Thread t = new Thread(new ParameterizedThreadStart(obj.EscreverValor));
+            t.Start("Passando parametro para a Thread");
+            Console.WriteLine("Continua alguma execução");
+            t.Join();
+
+            Console.ReadKey();
         }
 
         private static void Start () {
@@ -23,6 +31,7 @@ namespace ExemploThreading {
                 Console.WriteLine ($"iteração n° {i} por thread paralela");
                 Thread.Sleep(500);
             }
+
         }
     }
 }

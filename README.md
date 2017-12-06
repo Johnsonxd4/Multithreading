@@ -28,3 +28,7 @@ O método [`Thread.Join()`](https://github.com/Johnsonxd4/Multithreading/blob/43
 ### [`Thread.Sleep(0)`](https://github.com/Johnsonxd4/Multithreading/blob/43e0bd461edf94e66ea15afaae6930338ce5b356/ExemploThreading/Program.cs#L24)
 
 Este método sinaliza para o sistema operacional que a thread finalizou seu processamento. O sistema operacional executa outras thread no intervalo de tempo informado no método, em vez de somente esperar o tempo informado.
+
+### Threads parametrizadas
+
+O Construtor da classe `Thread` tem uma sobrecarga que permite criar Threads parametrizadas. Este Construtor aceita como parametro uma instância do delegate `ParameterizedThreadStart`. O parâmetro é passado para a thread quando ela é iniciada pelo método [`Thread.Start(object obj)`]()
