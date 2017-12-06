@@ -23,7 +23,19 @@ namespace ExemploThreading {
             Console.WriteLine("Continua alguma execução");
             t.Join();
 
+
+            UtilizandoPoolDeThreads();
+
             Console.ReadKey();
+        }
+
+        private static void UtilizandoPoolDeThreads()
+        {
+            ThreadPool.QueueUserWorkItem((s) =>
+            {
+                Console.WriteLine("Método executado por uma thread do pool de threads");
+                
+            });
         }
 
         private static void Start () {
