@@ -1,2 +1,4 @@
 ExemploThreading/bin/*
 ExemploThreading/obj/*
+.vs/MultiThreading/v15/*
+.vscode/*
